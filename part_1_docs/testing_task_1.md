@@ -16,24 +16,26 @@ Only comment on errors that would stop the tests running.
 
 class CardGame:
 
+  #requires setUp of a card to run in tests, with a value
+
 
   def check_for_ace(self, card):
-    if card.value = 1:
+    if card.value = 1:  #specify which card to test the value of, ie: card1.value
       return True
     else
       return False
    
 
-  dif highest_card(self, card1 card2):
+  dif highest_card(self, card1 card2): #spelling error in dif (should be def), comma between card1 and card 2 in parameters
   if card1.value > card2.value:
-    return card
+    return card #card1
   else:
     return card2
   
 
 
-def cards_total(self, cards):
-  total
+def cards_total(self, cards): #if cards is an array, ensure its included in setup
+  total #total should be set to something initially
   for card in cards:
     total += card.value
     return "You have a total of" + total
