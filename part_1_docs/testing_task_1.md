@@ -16,21 +16,19 @@ Only comment on errors that would stop the tests running.
 
 class CardGame:
 
-  #requires setUp of a card to run in tests, with a value
-
 
   def check_for_ace(self, card):
-    if card.value = 1:  #specify which card to test the value of, ie: card1.value
+    if card.value = 1:  #should be ==
       return True
-    else
+    else # needs :
       return False
    
 
   dif highest_card(self, card1 card2): #spelling error in dif (should be def), comma between card1 and card 2 in parameters
-  if card1.value > card2.value:
-    return card #card1
-  else:
-    return card2
+  if card1.value > card2.value: #indent
+    return card #card1  #indent
+  else:  #indent
+    return card2 #indent
   
 
 
